@@ -24,8 +24,8 @@ Based on this picture:
 
 - Pacifico: 
 
-<img src="./images/pacifico-example.jpg" alt="drawing" width="300">
+<img src="./assets/images/pacifico-example.jpg" alt="drawing" width="300">
 
 - Montserrat: 
 
-<img src="./images/montserrat-example.jpg" alt="drawing" width="300">
+<img src="./assets/images/montserrat-example.jpg" alt="drawing" width="300">
