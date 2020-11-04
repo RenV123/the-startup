@@ -18,3 +18,14 @@ Based on this picture:
 
 #### Background:
 - ![#fff](https://via.placeholder.com/15/fff/000000?text=+) `White`
+
+
+## Fonts
+
+- Pacifico: 
+
+<img src="./images/pacifico-example.jpg" alt="drawing" width="300">
+
+- Montserrat: 
+
+<img src="./images/montserrat-example.jpg" alt="drawing" width="300">
