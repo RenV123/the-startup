@@ -8,14 +8,12 @@ Based on this picture:
 ### Primary Accent color:
 
 #### Red-Orange accents:
-
-<span style="color:#d91a60">#d91a60 &#9209;</span>
-<span style="color:#ec6a74">#ec6a74 &#9209;</span>
+- ![#d91a60](https://via.placeholder.com/15/d91a60/000000?text=+) `#d91a60`
+- ![#ec6a74](https://via.placeholder.com/15/ec6a74/000000?text=+) `#ec6a74`
 
 #### Blue accents:
-
-<span style="color:#3e88c5">#3e88c5 &#9209;</span>
-<span style="color:#25aae2">#25aae2 &#9209;</span>
+- ![#3e88c5](https://via.placeholder.com/15/3e88c5/000000?text=+) `#3e88c5`
+- ![#25aae2](https://via.placeholder.com/15/25aae2/000000?text=+) `#25aae2`
 
 #### Background:
-<span style="color:#fff">White &#9209;</span>
+- ![#fff](https://via.placeholder.com/15/fff/000000?text=+) `White`
