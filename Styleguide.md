@@ -2,6 +2,7 @@
 
 ## Colors
 Based on this picture:
+
 ![veterinary-template.jpg](https://image.freepik.com/free-vector/landing-page-template-veterinary_7737-1295.jpg)
  
 
