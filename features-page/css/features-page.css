@@ -8,6 +8,15 @@
   border-radius: 1rem;
 }
 
+.card-title {
+  font-family: 'Pacifico';
+  font-size: 1.4rem;
+}
+.card-text {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+}
+
 .card .card-body .btn-primary {
   border-color: transparent;
   background: linear-gradient(120deg, #d91a60 0%, #ec6a74 100%);
@@ -24,4 +33,8 @@
 }
 .card .card-body .btn :clicked {
   border-color: transparent;
+}
+
+body {
+  min-height: 100vh;
 }
