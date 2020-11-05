@@ -4,7 +4,7 @@
 header h1 {
   font-family: var(--pacific);
   text-shadow: 5px 5px 15px var(--accent-color);
-  font-size: 60pt;
+  font-size: var(--title-size);
 }
 
 header p {
@@ -14,6 +14,12 @@ header p {
 
 p {
   font-family: var(--montser);
+  font-size: var(--body-size);
+}
+
+h2 {
+  font-size: var(--head-size);
+  font-weight: var(--title-weight);
 }
 
 .masthead {
