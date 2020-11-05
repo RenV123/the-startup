@@ -1,0 +1,69 @@
+/*Google fonts*/
+
+body{
+    font-family:'Montserrat', sans-serif;
+}
+/*font-family:'Pacifico', cursive;*/
+
+/*Navigation bar*/
+
+.navbar {
+    padding: 5px;
+    background-color: #25aae2;
+    /*color: #fff !important;*/
+}
+
+.navbar .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 15%;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.collapse {
+    margin-right: 15%;
+}
+
+/*pricing section */
+
+
+
+.image-section {
+    background-image: url('../../assets/images/cat-rests-in-bedroom.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #ec6a74;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-title {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #3e88c5;
+}
