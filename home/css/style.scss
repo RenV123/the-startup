@@ -7,15 +7,22 @@ header {
   h1 {
     font-family: var(--pacific);
     text-shadow: 5px 5px 15px var(--accent-color);
-    font-size: 60pt;
+    font-size: var(--title-size);
   }
   p {
     text-transform: uppercase;
     padding-top: 20px;
+    
   }
 }
 p {
   font-family: var(--montser);
+  font-size: var(--body-size);
+}
+h2 {
+  font-size: var(--head-size);
+  font-family: 'Montserrat bold', sans-serif;
+  font-weight: var(--title-weight);
 }
 .masthead {
   height: 90vh;
