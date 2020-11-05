@@ -1,0 +1,9 @@
+.custom-container-features {
+  margin-top: 10rem;
+  width: auto;
+}
+
+.custom-container-features .card {
+  box-shadow: 0.1rem 0.1rem 0.5rem #2e2e2e1f !important;
+  border-radius: 1rem;
+}
