@@ -4,8 +4,15 @@
 }
 
 .custom-container-features .card {
-  box-shadow: 0.1rem 0.1rem 0.5rem #2e2e2e1f;
-  border-radius: 1rem;
+  border-color: transparent;
+  background-color: #00000060;
+  box-shadow: 0.1 0.1 0.5rem 0 #00000075;
+  color: #fff;
+  border-radius: 20px;
+
+  /*Unsupported in Firefox 70, but supported in Chrome*/
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .card-title {
@@ -37,4 +44,14 @@
 
 body {
   min-height: 100vh;
+}
+
+.image-section {
+  background-position: 60% 0%;
+  background-image: url('../../assets/images/photo-cats-sleepy-crop.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: #ec6a74;
 }
