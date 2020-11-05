@@ -1,5 +1,21 @@
 @import url("../../navbar/navbar.css");
 @import url("../../footer/footer.css");
+@import url("../../partials/var.css");
+header h1 {
+  font-family: var(--pacific);
+  text-shadow: 5px 5px 15px var(--accent-color);
+  font-size: 60pt;
+}
+
+header p {
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+p {
+  font-family: var(--montser);
+}
+
 .masthead {
   height: 90vh;
   min-height: 500px;
