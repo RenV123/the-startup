@@ -46,19 +46,22 @@
   height: 200px;
 }
 
-/*Make body entire vertical height*/
 body {
+  /*Make body entire vertical height*/
   min-height: 100vh;
 
+  /*Create vertical flexbox with navbar, features and footer*/
   display: flex;
   flex-direction: column;
 }
 
 .custom-container-features {
+  /* Make another vertical flexbox to center 
+  the inner container on the center of the page. */
   display: flex;
   flex-direction: column;
-
   justify-content: center;
+  flex-grow: 1; /*Otherwise the footer will not stick to the bottom. */
 
   /*Show background*/
   background-position: 60% 0%;
@@ -67,4 +70,18 @@ body {
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
+}
+
+.custom-container-features-inner {
+  /*make another flexbox containing the row so 
+  it's always centered in the middle of the screen.*/
+  display: flex;
+  justify-content: center;
+}
+
+.custom-centered-col {
+  /*Create a flexbox of the columns because 
+  on mobile this also centers the card.*/
+  display: flex;
+  justify-content: center;
 }
