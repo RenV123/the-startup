@@ -1,1 +1,10 @@
 @import url("../../navbar/navbar.css");
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../../assets/images/iphonebackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
