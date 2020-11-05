@@ -1,4 +1,5 @@
 @import url("../../navbar/navbar.css");
+@import url("../../footer/footer.css");
 
 .masthead {
     height: 90vh;
@@ -8,7 +9,10 @@
     background-repeat: no-repeat;
   
   }
+.footer {
+  position:relative;
 
+}
   .parallax-window {
     min-height: 400px;
     background: transparent;
