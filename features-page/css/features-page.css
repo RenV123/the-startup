@@ -1,9 +1,4 @@
-.custom-container-features {
-  margin-top: 10rem;
-  width: auto;
-}
-
-.custom-container-features .card {
+.custom-container-features-inner .card {
   border-color: transparent;
   background-color: #00000060;
   box-shadow: 0.1 0.1 0.5rem 0 #00000075;
@@ -13,13 +8,18 @@
   /*Unsupported in Firefox 70, but supported in Chrome*/
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+
+  /*Dimensions*/
+  height: 500px;
+  max-width: 350px;
+  min-width: 230px;
 }
 
-.card-title {
+.card .card-title {
   font-family: 'Pacifico';
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
-.card-text {
+.card .card-text {
   font-family: 'Montserrat';
   font-size: 1rem;
 }
@@ -42,16 +42,29 @@
   border-color: transparent;
 }
 
-body {
-  min-height: 100vh;
+.card .card-body .card-img-top {
+  height: 200px;
 }
 
-.image-section {
+/*Make body entire vertical height*/
+body {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-container-features {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  /*Show background*/
   background-position: 60% 0%;
   background-image: url('../../assets/images/photo-cats-sleepy-crop.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
-  color: #ec6a74;
 }
