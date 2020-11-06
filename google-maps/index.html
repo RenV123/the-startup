@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Map</title>
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_SgFI5KJ3XQgl9eqKfodlihOjH4Wqjeg&callback=initMap&libraries=&v=weekly"
+            defer
+    ></script>
+    <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of BeCodeGent
+            const BeCodeGent = { lat: 51.036363, lng: 3.713471};
+            // The map, centered at BeCodeGent
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 13,
+                center: BeCodeGent,
+            });
+            // The marker, positioned at BeCodeGent
+            const marker = new google.maps.Marker({
+                position: BeCodeGent,
+                map: map,
+            });
+        }
+    </script>
+</head>
+<body>
+<h3>My Google Maps Demo</h3>
+<!--The div element for the map -->
+<div id="map"></div>
+</body>
+</html>

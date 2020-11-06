@@ -4,6 +4,37 @@
 }
 
 .custom-container-features .card {
-  box-shadow: 0.1rem 0.1rem 0.5rem #2e2e2e1f !important;
+  box-shadow: 0.1rem 0.1rem 0.5rem #2e2e2e1f;
   border-radius: 1rem;
+}
+
+.card-title {
+  font-family: 'Pacifico';
+  font-size: 1.4rem;
+}
+.card-text {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+}
+
+.card .card-body .btn-primary {
+  border-color: transparent;
+  background: linear-gradient(120deg, #d91a60 0%, #ec6a74 100%);
+  border-radius: 1rem;
+}
+
+.card .card-body .btn-primary > p {
+  margin: 0rem 0.75rem;
+}
+
+.card .card-body .btn:hover {
+  border-color: transparent;
+  box-shadow: 0.1rem 0.1rem 0.3rem #d91a6044;
+}
+.card .card-body .btn :clicked {
+  border-color: transparent;
+}
+
+body {
+  min-height: 100vh;
 }

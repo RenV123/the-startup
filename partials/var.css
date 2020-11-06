@@ -1,0 +1,12 @@
+:root {
+    --montser: 'Montserrat', sans-serif;
+    --pacific: 'Pacifico', cursive;
+    --body-size: 14pt;
+    --head-size: 30pt;
+    --title-size: 60pt;
+    --title-weight: 700;
+    --primary-color: #25aae2;
+    --primary-color-dark: #3e88c5;
+    --accent-color: #d91a60;
+    --accent-color-light: #ec6a74;
+}
