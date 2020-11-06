@@ -6,6 +6,7 @@ header h1 {
   text-shadow: 5px 5px 15px var(--accent-color);
   font-size: var(--title-size);
 }
+
 header p {
   text-transform: uppercase;
   padding-top: 20px;
@@ -16,15 +17,21 @@ p {
   font-size: var(--body-size);
 }
 
-.container a {
+section .container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .container a {
   color: var(--primary-color);
 }
 
-.container a:hover {
+section .container a:hover {
   color: var(--accent-color-light);
 }
 
-.container .done {
+section .container .done {
   font-family: var(--pacific);
   font-size: var(--title-size);
 }
@@ -51,5 +58,4 @@ h2 {
   min-height: 400px;
   background: transparent;
 }
-
 /*# sourceMappingURL=style.css.map */
