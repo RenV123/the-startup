@@ -34,7 +34,7 @@
     var(--accent-color-light) 100%
   );
   border-radius: 1rem;
-  margin: 0px 70px 5px 70px;
+  margin: 0px 15% 5px 15%;
 }
 
 .card .card-body .btn-primary > p {
@@ -68,7 +68,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-grow: 1; /*Otherwise the footer will not stick to the bottom. */
+  flex-grow: 1; /* Otherwise the footer will not stick to the bottom.  */
 
   /*Show background*/
   background-position: 60% 0%;
@@ -91,4 +91,9 @@ body {
   on mobile this also centers the card.*/
   display: flex;
   justify-content: center;
+}
+
+/*Overwrite the footer as it overlays on the cards otherwise.*/
+body .footer {
+  position: relative;
 }
