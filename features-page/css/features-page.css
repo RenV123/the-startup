@@ -1,3 +1,5 @@
+@import url('../../partials/var.css');
+
 .custom-container-features-inner .card {
   border-color: transparent;
   background-color: #00000060;
@@ -16,17 +18,21 @@
 }
 
 .card .card-title {
-  font-family: 'Pacifico';
+  font-family: var(--pacific);
   font-size: 1.6rem;
 }
 .card .card-text {
-  font-family: 'Montserrat';
+  font-family: var(--montser);
   font-size: 1rem;
 }
 
 .card .card-body .btn-primary {
   border-color: transparent;
-  background: linear-gradient(120deg, #d91a60 0%, #ec6a74 100%);
+  background: linear-gradient(
+    120deg,
+    var(--accent-color) 0%,
+    var(--accent-color-light) 100%
+  );
   border-radius: 1rem;
   margin: 0px 70px 5px 70px;
 }
@@ -36,7 +42,7 @@
 }
 
 .card .card-body .btn:hover {
-  border-color: transparent;
+  border-color: var(--accent-color);
   box-shadow: 0.1rem 0.1rem 0.3rem #d91a6044;
 }
 .card .card-body .btn :clicked {
