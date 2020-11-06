@@ -1,72 +1,77 @@
 :root {
-    --montser: 'Montserrat', sans-serif;
-    --pacific: 'Pacifico', cursive;
-    --body-size: 14pt;
-    --head-size: 30pt;
-    --title-size: 60pt;
-    --title-weight: 700;
-    --primary-color: #25aae2;
-    --primary-color-dark: #3e88c5;
-    --accent-color: #d91a60;
-    --accent-color-light: #ec6a74;  
+  --montser: 'Montserrat', sans-serif;
+  --pacific: 'Pacifico', cursive;
+  --body-size: 14pt;
+  --head-size: 30pt;
+  --title-size: 60pt;
+  --title-weight: 700;
+  --primary-color: #25aae2;
+  --primary-color-dark: #3e88c5;
+  --accent-color: #d91a60;
+  --accent-color-light: #ec6a74;
 }
 
 /* footer start */
 
-.footer{
-    background-color: var(--primary-color);
-    font-family:'Montserrat', sans-serif;
-    font-size: var(--body-size);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 20%;
+.footer {
+  background-color: var(--primary-color);
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--body-size);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
 }
 
-.social{
-    padding-top: 20px;
+.footer .footer-links .list-group {
+  overflow: auto;
 }
 
-li.footer-list{
-    background-color: var(--primary-color);
-}
-.footer-links{
-    
-    padding-bottom: 5px;
-}
-.social a{
-    font-size: 20px;
-    padding: 5px;
+.social {
+  padding-top: 20px;
 }
 
-.fa-facebook{
-    color: #3b5998;
+li.footer-list {
+  background-color: var(--primary-color);
+}
+.footer-links {
+  padding-bottom: 5px;
+}
+.social a {
+  font-size: 20px;
+  padding: 5px;
 }
 
-.fa-twitter{
-    color:#0067ed;
+.fa-facebook {
+  color: #3b5998;
 }
 
-.fa-google-plus-g{
-    color:#dd4b39;
+.fa-twitter {
+  color: #0067ed;
 }
 
-.fa-instagram{
-    color: #517fa4;
+.fa-google-plus-g {
+  color: #dd4b39;
 }
 
-.fa-youtube{
-    color: #bb000b;
+.fa-instagram {
+  color: #517fa4;
 }
 
-li a, span a, span{
-    color: white;
+.fa-youtube {
+  color: #bb000b;
 }
 
-span{
-    font-size: 12px;
-    padding-bottom: 15px
+li a,
+span a,
+span {
+  color: white;
+}
+
+span {
+  font-size: 12px;
+  padding-bottom: 15px;
 }
 
 /* End footer CSS */
