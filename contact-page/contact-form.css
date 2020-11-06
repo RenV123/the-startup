@@ -55,17 +55,34 @@
 
 /* begin contact form */
 
-.contact-section{
-    background: url(../assets/images/american-beauty-cat.jpg);
+.image-section {
+    background-image: url('../assets/images/american-beauty-cat.jpg');
+    /*background-image: url('../../assets/images/cat-rests-in-bedroom.jpg');*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    background-position: center; /* 500px looks better but no-repeat*/
+    text-align: center;
+    background-position: center;
     padding: 40px 0px;
-    /* margin-bottom: 111px; */
-    padding-bottom: 200px;  
+    padding-bottom: 200px;
 }
 
-.contact-section h1{
+.contact-column {
+    padding: 3% 2%;
+    border-radius: 1rem;
+}
+
+.contact-section{
+    /*background: url(../assets/images/american-beauty-cat.jpg);*/
+    /*background-size: cover;*/
+    /*!* background-repeat: no-repeat; *!*/
+    /*background-position: center; !* 500px looks better but no-repeat*!*/
+    padding: 40px 0px;
+    /* margin-bottom: 111px; */
+    padding-bottom: 200px;
+}
+
+.contact-section h1, h3{
     text-align: center;
     color: rgb(219, 215, 215);
     font-weight: var(--title-weight);
@@ -125,6 +142,17 @@ textarea.contact-form-text{
 }
 
 /* end contact form */
+
+/*google maps start*/
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: auto;
+    /* The width is the width of the web page */
+}
+
+/*google maps end*/
 
 /* footer start */
 
