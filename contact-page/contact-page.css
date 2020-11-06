@@ -48,7 +48,7 @@
 
 
 /* contact-page start */
-.image{
+/* .image{
     max-width: 100%;
     background-size: cover;
     position: fixed;
@@ -56,10 +56,22 @@
     background-repeat: no-repeat;
     padding-bottom: 111px;
     margin-top: -200px;
+} */
+
+.image-section {
+    background-image: url('../assets/images/staring-cat.jpg');
+    /*background-image: url('../../assets/images/cat-rests-in-bedroom.jpg');*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    padding: 40px 0px;
+    padding-bottom: 200px;
 }
 
 #cards{
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 .card{
@@ -70,6 +82,7 @@
     box-shadow: 0.1 0.1 0.5rem 0 #00000075;
     color: #fff;
     border-radius: 20px;
+    margin: 20px 0px;
     
     
 
