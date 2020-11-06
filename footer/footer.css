@@ -1,20 +1,39 @@
-/* Begin footer CSS */
+:root {
+    --montser: 'Montserrat', sans-serif;
+    --pacific: 'Pacifico', cursive;
+    --body-size: 14pt;
+    --head-size: 30pt;
+    --title-size: 60pt;
+    --title-weight: 700;
+    --primary-color: #25aae2;
+    --primary-color-dark: #3e88c5;
+    --accent-color: #d91a60;
+    --accent-color-light: #ec6a74;  
+}
+
+/* footer start */
+
 .footer{
-    background-color: #25aae2;
+    background-color: var(--primary-color);
     font-family:'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-size: var(--body-size);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
 }
 
 .social{
     padding-top: 20px;
 }
 
-.footer-list{
-    background-color: #25aae2;
+li.footer-list{
+    background-color: var(--primary-color);
 }
 .footer-links{
-    padding-top: 15px;
-    padding-bottom: 25px;
+    
+    padding-bottom: 5px;
 }
 .social a{
     font-size: 20px;
@@ -46,11 +65,8 @@ li a, span a, span{
 }
 
 span{
-    font-size: 0.9rem;
+    font-size: 12px;
     padding-bottom: 15px
 }
 
-a:hover{
-    color: white;
-}
 /* End footer CSS */
