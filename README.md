@@ -30,8 +30,7 @@ The app has options to sort/filter cats by age, distance, breed and more.
 - [RenV123](https://github.com/RenV123)
 
 
-### Styleguide:
-[Click here](./Styleguide.md)
+### Styleguide: [here](./Styleguide.md)
 
 ### Tools Used
 
