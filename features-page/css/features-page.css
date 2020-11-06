@@ -28,10 +28,11 @@
   border-color: transparent;
   background: linear-gradient(120deg, #d91a60 0%, #ec6a74 100%);
   border-radius: 1rem;
+  margin: 0px 70px 5px 70px;
 }
 
 .card .card-body .btn-primary > p {
-  margin: 0rem 0.75rem;
+  margin: 0px 0px;
 }
 
 .card .card-body .btn:hover {
