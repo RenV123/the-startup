@@ -2,7 +2,7 @@
 
 ## Goal
 
-The goal of this exercise was to work in a team of 3-4 people and create a website for a fictional startup.
+The goal of this exercise was to work in a team of 3-4 people and create a website for a fictional startup that we needed to invent.
 
 <hr>
 ## TinCat
@@ -10,10 +10,12 @@ The goal of this exercise was to work in a team of 3-4 people and create a websi
 
 <h3><em>Cats with benefits</em></h3>
 
-TinCat is a fictional company that aims to find the perfect match for cats and their owners. 
-
+TinCat is a fictional company that aims to find the perfect match for cats and their ~~owners~~ servants. 
+The app has options to sort/filter cats by age, distance, breed and more.
 
 <hr>
+
+###  Visit our site [here](https://renv123.github.io/the-startup/home/index.html)
 
 ### Learning objectives
  - Learn to work in group
