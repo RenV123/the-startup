@@ -51,7 +51,9 @@
 .image{
     max-width: 100%;
     background-size: cover;
-    position: absolute;
+    position: fixed;
+    text-align: center;
+    background-repeat: no-repeat;
     padding-bottom: 111px;
     margin-top: -200px;
 }
@@ -63,12 +65,12 @@
 .card{
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 300px;
     border-color: transparent;
     background-color: #00000060;
     box-shadow: 0.1 0.1 0.5rem 0 #00000075;
     color: #fff;
     border-radius: 20px;
+    
     
 
   /*Unsupported in Firefox 70, but supported in Chrome*/
