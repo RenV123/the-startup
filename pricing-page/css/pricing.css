@@ -1,69 +1,90 @@
-/*Google fonts*/
+
+@import url("../../navbar/navbar.css");
+@import url("../../footer/footer.css");
+@import url("../../partials/var.css");
 
 body{
-    font-family:'Montserrat', sans-serif;
-}
-/*font-family:'Pacifico', cursive;*/
-
-/*Navigation bar*/
-
-.navbar {
-    padding: 5px;
-    background-color: #25aae2;
-    /*color: #fff !important;*/
-}
-
-.navbar .navbar-brand {
-    font-family: 'Pacifico', cursive;
-    font-size: 2.5rem;
-    color: #fff;
-    margin-left: 15%;
-}
-
-.nav-item {
-    padding: 0 20px;
-}
-
-.nav-link {
-    font-family:'Montserrat', sans-serif;
-    font-size: 1.2rem;
-}
-
-.collapse {
-    margin-right: 15%;
+    font-family: var(--montser);
+    /*font-family:'Pacifico', cursive;*/
 }
 
 /*pricing section */
 
-
-
-.image-section {
-    background-image: url('../../assets/images/cat-rests-in-bedroom.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    color: #ec6a74;
+h2 {
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+    /*var doesn't work here?'*/
 }
 
-.section-heading {
-    font-size: 3rem;
-    line-height: 1.5;
+h3 {
+    color: var(--primary-color-dark);
+    text-shadow: 5px 5px 15px var(--primary-color-dark);
+    font-weight: bolder;
+}
+
+p {
+    color: var(--primary-color-dark);
+    text-shadow: 5px 5px 15px var(--primary-color-dark);
 }
 
 #pricing {
     padding: 100px;
+    font-family: var(--montser);
+    font-weight: bold;
 }
+
+.image-section {
+    background-image: url('../../assets/images/cat-rests-in-bedroom.jpg');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    text-align: center;
+    background-position: 0% 80%;
+}
+
+.section-heading {
+    color: var(--accent-color);
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: var(--pacific);
+    text-shadow: 5px 5px 15px var(--accent-color);
+    /*font-size: var(--title-size);*/
+}
+
+.heading-text{
+    font-size: var(--body-size);
+    color: var(--accent-color-light);
+    font-family: var(--pacific);
+    text-shadow: 5px 5px 15px var(--accent-color-light);
+}
+
 
 .pricing-column {
     padding: 3% 2%;
+    border-radius: 1rem;
+}
+
+.card{
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.card-img-top {
+    border-radius: 30%;
+    width: auto;
+    height: 100px;
 }
 
 .card-title {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
+    color: var(--accent-color);
+    font-family: var(--pacific);
+    text-shadow: 5px 5px 15px var(--accent-color-light);
 }
 
-p {
-    color: #3e88c5;
+.btn {
+    text-shadow: 5px 5px 15px var(--primary-color-dark);
 }

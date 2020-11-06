@@ -6,7 +6,6 @@ header h1 {
   text-shadow: 5px 5px 15px var(--accent-color);
   font-size: var(--title-size);
 }
-
 header p {
   text-transform: uppercase;
   padding-top: 20px;
@@ -52,4 +51,5 @@ h2 {
   min-height: 400px;
   background: transparent;
 }
+
 /*# sourceMappingURL=style.css.map */
