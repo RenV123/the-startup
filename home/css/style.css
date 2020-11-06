@@ -17,9 +17,23 @@ p {
   font-size: var(--body-size);
 }
 
+.container a {
+  color: var(--primary-color);
+}
+
+.container a:hover {
+  color: var(--accent-color-light);
+}
+
+.container .done {
+  font-family: var(--pacific);
+  font-size: var(--title-size);
+}
+
 h2 {
   font-size: var(--head-size);
   font-weight: var(--title-weight);
+  color: var(--accent-color);
 }
 
 .masthead {
