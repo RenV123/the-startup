@@ -1,18 +1,25 @@
-.custom-container-features {
-  margin-top: 10rem;
-  width: auto;
+.custom-container-features-inner .card {
+  border-color: transparent;
+  background-color: #00000060;
+  box-shadow: 0.1 0.1 0.5rem 0 #00000075;
+  color: #fff;
+  border-radius: 20px;
+
+  /*Unsupported in Firefox 70, but supported in Chrome*/
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+
+  /*Dimensions*/
+  height: 500px;
+  max-width: 350px;
+  min-width: 230px;
 }
 
-.custom-container-features .card {
-  box-shadow: 0.1rem 0.1rem 0.5rem #2e2e2e1f;
-  border-radius: 1rem;
-}
-
-.card-title {
+.card .card-title {
   font-family: 'Pacifico';
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
-.card-text {
+.card .card-text {
   font-family: 'Montserrat';
   font-size: 1rem;
 }
@@ -35,6 +42,46 @@
   border-color: transparent;
 }
 
+.card .card-body .card-img-top {
+  height: 200px;
+}
+
 body {
+  /*Make body entire vertical height*/
   min-height: 100vh;
+
+  /*Create vertical flexbox with navbar, features and footer*/
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-container-features {
+  /* Make another vertical flexbox to center 
+  the inner container on the center of the page. */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1; /*Otherwise the footer will not stick to the bottom. */
+
+  /*Show background*/
+  background-position: 60% 0%;
+  background-image: url('../../assets/images/photo-cats-sleepy-crop.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.custom-container-features-inner {
+  /*make another flexbox containing the row so 
+  it's always centered in the middle of the screen.*/
+  display: flex;
+  justify-content: center;
+}
+
+.custom-centered-col {
+  /*Create a flexbox of the columns because 
+  on mobile this also centers the card.*/
+  display: flex;
+  justify-content: center;
 }

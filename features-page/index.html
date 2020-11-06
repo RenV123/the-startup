@@ -24,7 +24,8 @@
 
 </head>
 
-<body class="d-flex flex-column">
+<body>
+
     <!-- keep up to date with navbar.html -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark shadow">
         <a class="navbar-brand" href="#">
@@ -41,60 +42,64 @@
 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="../home/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#pricing">Pricing</a>
+                    <a class="nav-link" href="./index.html">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#footer">Contact</a>
+                    <a class="nav-link" href="../pricing-page/pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#cta">Download</a>
+                    <a class="nav-link" href="../contact-page/contact-page.html">Contact</a>
                 </li>
             </ul>
 
         </div>
     </nav>
+    <!-- End of navbar -->
 
     <!-- Features Page Content -->
-    <section class="container-fluid flex-grow-1">
-        <div class="container-fluid custom-container-features d-flex justify-content-center">
+    <section class="custom-container-features container-fluid">
+        <div class="custom-container-features-inner container-fluid">
             <div class="row">
-                <div class="col col-sm-12 col-md-6 col-lg-3">
-                    <div class="card text-center m-3" style="width: 20rem; height: 31rem;">
-                        <div class="card-body p-5"><img src="../assets/images/maps-and-location.svg"
-                                class="card-img-top" alt="Map and location icon.">
+                <div class="custom-centered-col col-sm-12 col-md-6 col-lg-3">
+                    <div class="card text-center m-3">
+                        <div class="card-body mt-4">
+                            <img src="../assets/images/maps-and-location.svg" class="card-img-top"
+                                alt="Map and location icon.">
                         </div>
-                        <div class="card-body mt-n5">
+                        <div class="card-body mt-n5 d-flex flex-column justify-content-between">
                             <h5 class="card-title">Find cats near you.</h5>
-                            <p class="card-text">Easily find the purrrrfect kitty near you.</p>
+                            <p class="card-text">Easily find the purrrrfect kitty near you.
+                            </p>
                             <a href="#" class="btn btn-primary">
                                 <p>Learn more</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col col-sm-12 col-md-6 col-lg-3">
-                    <div class="card text-center m-3" style="width: 20rem; height: 31rem;">
-                        <div class="card-body p-5"><img src="../assets/images/paw.svg" class="card-img-top"
-                                alt="Map and location icon.">
+                <div class="custom-centered-col col-sm-12 col-md-6 col-lg-3">
+                    <div class="card text-center m-3">
+                        <div class="card-body mt-4">
+                            <img src="../assets/images/paw.svg" class="card-img-top" alt="Heart and paw icon.">
                         </div>
-                        <div class="card-body mt-n5">
+                        <div class="card-body mt-n5 d-flex flex-column justify-content-between">
                             <h5 class="card-title">98% match rate</h5>
-                            <p class="card-text">98%* of our clients have found a four footed match using our app.</p>
+                            <p class="card-text">98% of our clients have found a four footed match using our app.</p>
                             <a href="#" class="btn btn-primary">
                                 <p>Learn more</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col col-sm-12 col-md-6 col-lg-3">
-                    <div class="card text-center m-3" style="width: 20rem; height: 31rem;">
-                        <div class="card-body p-5"><img src="../assets/images/play-with-pet.svg" class="card-img-top"
-                                alt="Map and location icon.">
+                <div class="custom-centered-col col-sm-12 col-md-6 col-lg-3">
+                    <div class="card text-center m-3">
+                        <div class="card-body mt-4">
+                            <img src="../assets/images/play-with-pet.svg" class="card-img-top"
+                                alt="Play with pet icon.">
                         </div>
-                        <div class="card-body mt-n5">
+                        <div class="card-body mt-n4 d-flex flex-column justify-content-between">
                             <h5 class="card-title">Adopt a cat.</h5>
                             <p class="card-text">The app allows you to find cats up for adoption or to put cats up for
                                 adoption.
@@ -105,14 +110,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-sm-12 col-md-6 col-lg-3">
-                    <div class="card text-center m-3" style="width: 20rem; height: 31rem;">
-                        <div class="card-body p-5"><img src="../assets/images/certificate.svg" class="card-img-top"
-                                alt="Map and location icon.">
+                <div class="custom-centered-col col-sm-12 col-md-6 col-lg-3">
+                    <div class="card text-center m-3">
+                        <div class="card-body mt-4">
+                            <img src="../assets/images/certificate.svg" class="card-img-top" alt="Certificate icon.">
                         </div>
-                        <div class="card-body mt-n5">
+                        <div class="card-body mt-n5 d-flex flex-column justify-content-between">
                             <h5 class="card-title">Award wining app of 2020</h5>
-                            <p class="card-text">Some prestigious awards were won.</p>
+                            <p class="card-text">Some amazingly prestigious awards were won.
+                            </p>
                             <a href="#" class="btn btn-primary">
                                 <p>Learn more</p>
                             </a>
@@ -121,10 +127,9 @@
                 </div>
             </div>
         </div>
-
-
-
     </section>
+    <!-- End of features -->
+
     <!-- Begin footer -->
     <footer class="footer">
         <div class="text-center padding">
@@ -160,6 +165,7 @@
         </div>
     </footer>
     <!-- End of footer -->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
