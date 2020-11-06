@@ -1,4 +1,3 @@
-
 @import url("../../navbar/navbar.css");
 @import url("../../footer/footer.css");
 @import url("../../partials/var.css");
@@ -9,27 +8,33 @@ header {
     text-shadow: 5px 5px 15px var(--accent-color);
     font-size: var(--title-size);
   }
+
   p {
     text-transform: uppercase;
     padding-top: 20px;
-    
+
   }
 }
+
 p {
   font-family: var(--montser);
   font-size: var(--body-size);
 }
+
 section {
 
-  
+
   .container {
     justify-content: center;
+
     a {
       color: var(--primary-color);
     }
+
     a:hover {
       color: var(--accent-color-light);
     }
+
     .done {
       font-family: var(--pacific);
       font-size: var(--title-size);
@@ -42,6 +47,7 @@ h2 {
   font-weight: var(--title-weight);
   color: var(--accent-color);
 }
+
 .masthead {
   height: 90vh;
   min-height: 500px;
