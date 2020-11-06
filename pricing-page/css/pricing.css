@@ -8,6 +8,11 @@ body{
     /*font-family:'Pacifico', cursive;*/
 }
 
+/*/Overwrite the footer as it overlays on the cards otherwise./*/
+body .footer {
+    position: relative;
+}
+
 /*pricing section */
 
 h2 {
