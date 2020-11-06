@@ -5,9 +5,22 @@
 
 /* Navigation bar start */
 
+:root {
+    --montser: 'Montserrat', sans-serif;
+    --pacific: 'Pacifico', cursive;
+    --body-size: 14pt;
+    --head-size: 30pt;
+    --title-size: 60pt;
+    --title-weight: 700;
+    --primary-color: #25aae2;
+    --primary-color-dark: #3e88c5;
+    --accent-color: #d91a60;
+    --accent-color-light: #ec6a74;  
+}
+
 .navbar {
     padding: 5px;
-    background-color: #25aae2;
+    background-color: var(--primary-color);
     /*color: #fff !important;*/
 }
 
@@ -66,19 +79,20 @@
 .card h5{
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+    font-weight: var(--title-weight);
 }
 
 .card a:hover{
     /* color: #d91a60;
     background-color:#3e88c5; */
-    box-shadow: 0 0 3px 2px #d91a60;
-    background-color: #d91a60;
-    border-color: #d91a60;
+    box-shadow: 0 0 3px 2px var(--accent-color);
+    background-color: var(--accent-color);
+    border-color:var(--accent-color);
 }
 
 .card a:visited{
-    background-color: #d91a60;
-    border-color: #d91a60;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .card img{
@@ -87,8 +101,8 @@
 }
 
 .btn-primary{
-    background-color: #d91a60; 
-    border-color: #d91a60
+    background-color:var(--accent-color); 
+    border-color:var(--accent-color);
 }
 
 /* contact-page end */
@@ -97,7 +111,7 @@
 /* footer start */
 
 .footer{
-    background-color: #25aae2;
+    background-color: var(--primary-color);
     font-family:'Montserrat', sans-serif;
     font-size: 14px;
     position: fixed;
@@ -111,8 +125,8 @@
     padding-top: 20px;
 }
 
-.footer-list{
-    background-color: #25aae2;
+li.footer-list{
+    background-color: var(--primary-color);
 }
 .footer-links{
     
