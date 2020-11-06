@@ -5,6 +5,7 @@
 The goal of this exercise was to work in a team of 3-4 people and create a website for a fictional startup that we needed to invent.
 
 <hr>
+
 ## TinCat
 <img src="./assets/tincat.svg" alt="drawing" width="100">
 
